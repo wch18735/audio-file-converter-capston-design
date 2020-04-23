@@ -3,6 +3,8 @@ import contextlib
 import sys
 import wave
 import webrtcvad
+import os
+import errno
 
 def read_wave(path):
     """Reads a .wav file.
@@ -135,22 +137,85 @@ def vad_collector(sample_rate, frame_duration_ms,
     if voiced_frames:
         yield b''.join([f.bytes for f in voiced_frames])
 
+def get_wav_list(path):
+    path = os.getcwd()
+    target_foler = '\\sample_wav\\'
+    file_list = os.listdir(path+target_foler)               # sample_wav == target folder
+    file_list_wav = [file for file in file_list if file.startswith("Kai")]
 
-def main(args):
-    if len(args) != 2:
-        sys.stderr.write(
-            'Usage: example.py <aggressiveness> <path to wav file>\n')
-        sys.exit(1)
-    audio, sample_rate = read_wave(args[1])
-    vad = webrtcvad.Vad(int(args[0]))
-    frames = frame_generator(30, audio, sample_rate)
-    frames = list(frames)
-    segments = vad_collector(sample_rate, 30, 300, vad, frames)
+    return file_list_wav
+
+def mkdir(target_path, foldername):    # make folder if there is no folder in target_path
+    try:
+        if not (os.path.isdir(target_path + foldername)):
+            os.makedirs(os.path.join(target_path + foldername))
+    except OSError as e:
+        if e.errno != errno.EEXIST:
+            print("Failed to create directory!!")
+            raise
+
+def save_chunk(segments, tested_path, filename):
+    # make folder named after filename
+    mkdir(tested_path, filename)
+
+    # save chunk files in tested file path in folder_#
     for i, segment in enumerate(segments):
-        path = 'chunk-%002d.wav' % (i,)
-        print(' Writing %s' % (path,))
-        write_wave(path, segment, sample_rate)
+        chunk_name = 'chunk-%002d.wav' % (i,)
+        print(' Writing %s' % (chunk_name,))
+        write_wave(tested_path + filename + '\\' + chunk_name, segment, sample_rate)
 
+def wav_concatenate(target_path):
+    # target_path = tested_path+'\\'+filename_test+'\\'
+
+    file_list = os.listdir(target_path)
+    file_list_wav = [file for file in file_list if file.startswith("chunk")]
+    print("file_list: {}".format(file_list_wav))
+    outfile = target_path+"KaiSpeech_concatenated.wav"
+    data = []
+
+    for infile in file_list_wav:
+        w = wave.open(target_path + infile, 'rb')
+        data.append([w.getparams(), w.readframes(w.getnframes())])
+        w.close()
+
+    output = wave.open(outfile, 'wb')
+    output.setparams(data[0][0])
+
+    for audio_chunk_index in range(len(file_list_wav)):
+        output.writeframes(data[audio_chunk_index][1])
+
+    print('context concatenate success')
+
+    output.close()
 
 if __name__ == '__main__':
-    main(sys.argv[1:])
+
+    # initializing setting
+    base_path = os.getcwd()
+    filepath = base_path + '\\sample_wav\\'                 # sample_wav folder has wav auido data
+    tested_path = base_path + '\\Tested_Sample\\'           # chunked wave folder is going to save in this folder
+    Kai_list = get_wav_list(base_path + '\\sample_wav\\')   # to get sample audio.wav in "sample_wav" folder in 'list'
+    # filename = 'KaiSpeech_000020.wav'
+    aggressiveness = 3                                      # choose 1, 2, 3 for agressiveness
+
+    for filename in Kai_list:
+
+        # read_wave file
+        audio, sample_rate = read_wave(filepath + filename)
+        vad = webrtcvad.Vad(aggressiveness)
+
+        # generate samples in one audio
+        frames = frame_generator(30, audio, sample_rate)
+        frames = list(frames)
+
+        # segments : segmented files in one audio
+        segments = vad_collector(sample_rate, 30, 300, vad, frames)
+
+        # save_file
+        save_chunk(segments, tested_path, filename)
+
+        # concatenate
+        wav_concatenate(tested_path+'\\'+filename+'\\')
+        print(filename)
+
+
