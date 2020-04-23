@@ -1,0 +1,498 @@
+before truncated KaiSpeech_000001.pcm : 3.148 s
+after truncated KaiSpeech_000001.pcm : 2.08 s
+Result: shorten 1.068 s
+
+
+before truncated KaiSpeech_000002.pcm : 10.59 s
+after truncated KaiSpeech_000002.pcm : 7.264 s
+Result: shorten 3.326 s
+
+
+before truncated KaiSpeech_000003.pcm : 12.32 s
+after truncated KaiSpeech_000003.pcm : 5.856 s
+Result: shorten 6.464 s
+
+
+before truncated KaiSpeech_000004.pcm : 9.126 s
+after truncated KaiSpeech_000004.pcm : 7.808 s
+Result: shorten 1.318 s
+
+
+before truncated KaiSpeech_000005.pcm : 5.073 s
+after truncated KaiSpeech_000005.pcm : 3.392 s
+Result: shorten 1.681 s
+
+
+before truncated KaiSpeech_000006.pcm : 3.862 s
+after truncated KaiSpeech_000006.pcm : 3.264 s
+Result: shorten 0.598 s
+
+
+before truncated KaiSpeech_000007.pcm : 12.095 s
+after truncated KaiSpeech_000007.pcm : 7.616 s
+Result: shorten 4.479 s
+
+
+before truncated KaiSpeech_000008.pcm : 1.293 s
+after truncated KaiSpeech_000008.pcm : 0.448 s
+Result: shorten 0.845 s
+
+
+before truncated KaiSpeech_000009.pcm : 6.33 s
+after truncated KaiSpeech_000009.pcm : 3.648 s
+Result: shorten 2.682 s
+
+
+before truncated KaiSpeech_000010.pcm : 3.059 s
+after truncated KaiSpeech_000010.pcm : 1.792 s
+Result: shorten 1.267 s
+
+
+before truncated KaiSpeech_000011.pcm : 3.551 s
+after truncated KaiSpeech_000011.pcm : 2.752 s
+Result: shorten 0.799 s
+
+
+before truncated KaiSpeech_000012.pcm : 5.873 s
+after truncated KaiSpeech_000012.pcm : 3.872 s
+Result: shorten 2.001 s
+
+
+before truncated KaiSpeech_000013.pcm : 2.847 s
+after truncated KaiSpeech_000013.pcm : 1.344 s
+Result: shorten 1.503 s
+
+
+before truncated KaiSpeech_000014.pcm : 4.586 s
+after truncated KaiSpeech_000014.pcm : 3.904 s
+Result: shorten 0.682 s
+
+
+before truncated KaiSpeech_000015.pcm : 6.477 s
+after truncated KaiSpeech_000015.pcm : 5.696 s
+Result: shorten 0.781 s
+
+
+before truncated KaiSpeech_000016.pcm : 2.792 s
+after truncated KaiSpeech_000016.pcm : 2.048 s
+Result: shorten 0.744 s
+
+
+before truncated KaiSpeech_000017.pcm : 3.71 s
+after truncated KaiSpeech_000017.pcm : 1.248 s
+Result: shorten 2.462 s
+
+
+before truncated KaiSpeech_000018.pcm : 3.369 s
+after truncated KaiSpeech_000018.pcm : 2.08 s
+Result: shorten 1.289 s
+
+
+before truncated KaiSpeech_000019.pcm : 4.93 s
+after truncated KaiSpeech_000019.pcm : 3.776 s
+Result: shorten 1.154 s
+
+
+before truncated KaiSpeech_000020.pcm : 8.288 s
+after truncated KaiSpeech_000020.pcm : 4.832 s
+Result: shorten 3.456 s
+
+
+before truncated KaiSpeech_000021.pcm : 1.14 s
+after truncated KaiSpeech_000021.pcm : 0.48 s
+Result: shorten 0.66 s
+
+
+before truncated KaiSpeech_000022.pcm : 5.169 s
+after truncated KaiSpeech_000022.pcm : 4.064 s
+Result: shorten 1.105 s
+
+
+before truncated KaiSpeech_000023.pcm : 9.27 s
+after truncated KaiSpeech_000023.pcm : 3.584 s
+Result: shorten 5.686 s
+
+
+before truncated KaiSpeech_000024.pcm : 7.733 s
+after truncated KaiSpeech_000024.pcm : 5.824 s
+Result: shorten 1.909 s
+
+
+before truncated KaiSpeech_000025.pcm : 2.172 s
+after truncated KaiSpeech_000025.pcm : 1.472 s
+Result: shorten 0.7 s
+
+
+before truncated KaiSpeech_000026.pcm : 1.598 s
+after truncated KaiSpeech_000026.pcm : 1.152 s
+Result: shorten 0.446 s
+
+
+before truncated KaiSpeech_000027.pcm : 4.815 s
+after truncated KaiSpeech_000027.pcm : 1.152 s
+Result: shorten 3.663 s
+
+
+before truncated KaiSpeech_000028.pcm : 2.714 s
+after truncated KaiSpeech_000028.pcm : 1.914 s
+Result: shorten 0.8 s
+
+
+before truncated KaiSpeech_000029.pcm : 1.126 s
+after truncated KaiSpeech_000029.pcm : 1.126 s
+Result: shorten 0.0 s
+
+
+before truncated KaiSpeech_000030.pcm : 14.9650625 s
+after truncated KaiSpeech_000030.pcm : 12.128 s
+Result: shorten 2.8370625 s
+
+
+before truncated KaiSpeech_000031.pcm : 4.86 s
+after truncated KaiSpeech_000031.pcm : 2.304 s
+Result: shorten 2.556 s
+
+
+before truncated KaiSpeech_000032.pcm : 1.294 s
+after truncated KaiSpeech_000032.pcm : 0.8 s
+Result: shorten 0.494 s
+
+
+before truncated KaiSpeech_000033.pcm : 7.287 s
+after truncated KaiSpeech_000033.pcm : 5.463 s
+Result: shorten 1.824 s
+
+
+before truncated KaiSpeech_000034.pcm : 4.34 s
+after truncated KaiSpeech_000034.pcm : 1.876 s
+Result: shorten 2.464 s
+
+
+before truncated KaiSpeech_000035.pcm : 2.699 s
+after truncated KaiSpeech_000035.pcm : 1.824 s
+Result: shorten 0.875 s
+
+
+before truncated KaiSpeech_000036.pcm : 1.281 s
+after truncated KaiSpeech_000036.pcm : 0.992 s
+Result: shorten 0.289 s
+
+
+before truncated KaiSpeech_000037.pcm : 8.828 s
+after truncated KaiSpeech_000037.pcm : 6.304 s
+Result: shorten 2.524 s
+
+
+before truncated KaiSpeech_000038.pcm : 1.744 s
+after truncated KaiSpeech_000038.pcm : 1.408 s
+Result: shorten 0.336 s
+
+
+before truncated KaiSpeech_000039.pcm : 9.563 s
+after truncated KaiSpeech_000039.pcm : 7.232 s
+Result: shorten 2.331 s
+
+
+before truncated KaiSpeech_000040.pcm : 4.002 s
+after truncated KaiSpeech_000040.pcm : 2.784 s
+Result: shorten 1.218 s
+
+
+before truncated KaiSpeech_000041.pcm : 3.219 s
+after truncated KaiSpeech_000041.pcm : 2.464 s
+Result: shorten 0.755 s
+
+
+before truncated KaiSpeech_000042.pcm : 1.378 s
+after truncated KaiSpeech_000042.pcm : 0.736 s
+Result: shorten 0.642 s
+
+
+before truncated KaiSpeech_000043.pcm : 1.704 s
+after truncated KaiSpeech_000043.pcm : 1.056 s
+Result: shorten 0.648 s
+
+
+before truncated KaiSpeech_000044.pcm : 1.687 s
+after truncated KaiSpeech_000044.pcm : 1.088 s
+Result: shorten 0.599 s
+
+
+before truncated KaiSpeech_000045.pcm : 1.623 s
+after truncated KaiSpeech_000045.pcm : 0.96 s
+Result: shorten 0.663 s
+
+
+before truncated KaiSpeech_000046.pcm : 8.056 s
+after truncated KaiSpeech_000046.pcm : 6.112 s
+Result: shorten 1.944 s
+
+
+before truncated KaiSpeech_000047.pcm : 1.937 s
+after truncated KaiSpeech_000047.pcm : 0.928 s
+Result: shorten 1.009 s
+
+
+before truncated KaiSpeech_000048.pcm : 4.355 s
+after truncated KaiSpeech_000048.pcm : 3.808 s
+Result: shorten 0.547 s
+
+
+before truncated KaiSpeech_000049.pcm : 9.939 s
+after truncated KaiSpeech_000049.pcm : 7.328 s
+Result: shorten 2.611 s
+
+
+before truncated KaiSpeech_000050.pcm : 2.489 s
+after truncated KaiSpeech_000050.pcm : 1.888 s
+Result: shorten 0.601 s
+
+
+before truncated KaiSpeech_000051.pcm : 2.594 s
+after truncated KaiSpeech_000051.pcm : 2.144 s
+Result: shorten 0.45 s
+
+
+before truncated KaiSpeech_000052.pcm : 1.787 s
+after truncated KaiSpeech_000052.pcm : 0.928 s
+Result: shorten 0.859 s
+
+
+before truncated KaiSpeech_000053.pcm : 4.202 s
+after truncated KaiSpeech_000053.pcm : 1.76 s
+Result: shorten 2.442 s
+
+
+before truncated KaiSpeech_000054.pcm : 2.119 s
+after truncated KaiSpeech_000054.pcm : 1.152 s
+Result: shorten 0.967 s
+
+
+before truncated KaiSpeech_000055.pcm : 5.947 s
+after truncated KaiSpeech_000055.pcm : 4.416 s
+Result: shorten 1.531 s
+
+
+before truncated KaiSpeech_000056.pcm : 8.418 s
+after truncated KaiSpeech_000056.pcm : 7.168 s
+Result: shorten 1.25 s
+
+
+before truncated KaiSpeech_000057.pcm : 2.029 s
+after truncated KaiSpeech_000057.pcm : 1.472 s
+Result: shorten 0.557 s
+
+
+before truncated KaiSpeech_000058.pcm : 29.151 s
+after truncated KaiSpeech_000058.pcm : 21.568 s
+Result: shorten 7.583 s
+
+
+before truncated KaiSpeech_000059.pcm : 2.264 s
+after truncated KaiSpeech_000059.pcm : 1.024 s
+Result: shorten 1.24 s
+
+
+before truncated KaiSpeech_000060.pcm : 5.0999375 s
+after truncated KaiSpeech_000060.pcm : 2.624 s
+Result: shorten 2.4759375 s
+
+
+before truncated KaiSpeech_000061.pcm : 2.092 s
+after truncated KaiSpeech_000061.pcm : 1.984 s
+Result: shorten 0.108 s
+
+
+before truncated KaiSpeech_000062.pcm : 4.296 s
+after truncated KaiSpeech_000062.pcm : 2.816 s
+Result: shorten 1.48 s
+
+
+before truncated KaiSpeech_000063.pcm : 2.081 s
+after truncated KaiSpeech_000063.pcm : 1.12 s
+Result: shorten 0.961 s
+
+
+before truncated KaiSpeech_000064.pcm : 3.654 s
+after truncated KaiSpeech_000064.pcm : 2.304 s
+Result: shorten 1.35 s
+
+
+before truncated KaiSpeech_000065.pcm : 6.63 s
+after truncated KaiSpeech_000065.pcm : 3.712 s
+Result: shorten 2.918 s
+
+
+before truncated KaiSpeech_000066.pcm : 5.836 s
+after truncated KaiSpeech_000066.pcm : 4.192 s
+Result: shorten 1.644 s
+
+
+before truncated KaiSpeech_000067.pcm : 4.57 s
+after truncated KaiSpeech_000067.pcm : 3.36 s
+Result: shorten 1.21 s
+
+
+before truncated KaiSpeech_000068.pcm : 14.614 s
+after truncated KaiSpeech_000068.pcm : 11.904 s
+Result: shorten 2.71 s
+
+
+before truncated KaiSpeech_000069.pcm : 5.383 s
+after truncated KaiSpeech_000069.pcm : 3.776 s
+Result: shorten 1.607 s
+
+
+before truncated KaiSpeech_000070.pcm : 7.7 s
+after truncated KaiSpeech_000070.pcm : 3.36 s
+Result: shorten 4.34 s
+
+
+before truncated KaiSpeech_000071.pcm : 2.196 s
+after truncated KaiSpeech_000071.pcm : 1.12 s
+Result: shorten 1.076 s
+
+
+before truncated KaiSpeech_000072.pcm : 4.25 s
+after truncated KaiSpeech_000072.pcm : 2.368 s
+Result: shorten 1.882 s
+
+
+before truncated KaiSpeech_000073.pcm : 3.725 s
+after truncated KaiSpeech_000073.pcm : 3.456 s
+Result: shorten 0.269 s
+
+
+before truncated KaiSpeech_000074.pcm : 4.269 s
+after truncated KaiSpeech_000074.pcm : 3.84 s
+Result: shorten 0.429 s
+
+
+before truncated KaiSpeech_000075.pcm : 17.07 s
+after truncated KaiSpeech_000075.pcm : 14.208 s
+Result: shorten 2.862 s
+
+
+before truncated KaiSpeech_000076.pcm : 6.011 s
+after truncated KaiSpeech_000076.pcm : 3.2 s
+Result: shorten 2.811 s
+
+
+before truncated KaiSpeech_000077.pcm : 1.606 s
+after truncated KaiSpeech_000077.pcm : 1.44 s
+Result: shorten 0.166 s
+
+
+before truncated KaiSpeech_000078.pcm : 10.433 s
+after truncated KaiSpeech_000078.pcm : 6.56 s
+Result: shorten 3.873 s
+
+
+before truncated KaiSpeech_000079.pcm : 2.356 s
+after truncated KaiSpeech_000079.pcm : 1.632 s
+Result: shorten 0.724 s
+
+
+before truncated KaiSpeech_000080.pcm : 11.63 s
+after truncated KaiSpeech_000080.pcm : 8.288 s
+Result: shorten 3.342 s
+
+
+before truncated KaiSpeech_000081.pcm : 3.168 s
+after truncated KaiSpeech_000081.pcm : 2.208 s
+Result: shorten 0.96 s
+
+
+before truncated KaiSpeech_000082.pcm : 2.282 s
+after truncated KaiSpeech_000082.pcm : 2.186 s
+Result: shorten 0.096 s
+
+
+before truncated KaiSpeech_000083.pcm : 3.247 s
+after truncated KaiSpeech_000083.pcm : 3.087 s
+Result: shorten 0.16 s
+
+
+before truncated KaiSpeech_000084.pcm : 3.849 s
+after truncated KaiSpeech_000084.pcm : 2.784 s
+Result: shorten 1.065 s
+
+
+before truncated KaiSpeech_000085.pcm : 5.7620625 s
+after truncated KaiSpeech_000085.pcm : 3.168 s
+Result: shorten 2.5940625 s
+
+
+before truncated KaiSpeech_000086.pcm : 3.17 s
+after truncated KaiSpeech_000086.pcm : 1.952 s
+Result: shorten 1.218 s
+
+
+before truncated KaiSpeech_000087.pcm : 1.273 s
+after truncated KaiSpeech_000087.pcm : 1.056 s
+Result: shorten 0.217 s
+
+
+before truncated KaiSpeech_000088.pcm : 6.127 s
+after truncated KaiSpeech_000088.pcm : 3.136 s
+Result: shorten 2.991 s
+
+
+before truncated KaiSpeech_000089.pcm : 1.485 s
+after truncated KaiSpeech_000089.pcm : 1.389 s
+Result: shorten 0.096 s
+
+
+before truncated KaiSpeech_000090.pcm : 2.599 s
+after truncated KaiSpeech_000090.pcm : 1.28 s
+Result: shorten 1.319 s
+
+
+before truncated KaiSpeech_000091.pcm : 2.626 s
+after truncated KaiSpeech_000091.pcm : 1.6 s
+Result: shorten 1.026 s
+
+
+before truncated KaiSpeech_000092.pcm : 4.079 s
+after truncated KaiSpeech_000092.pcm : 3.136 s
+Result: shorten 0.943 s
+
+
+before truncated KaiSpeech_000093.pcm : 2.739 s
+after truncated KaiSpeech_000093.pcm : 1.76 s
+Result: shorten 0.979 s
+
+
+before truncated KaiSpeech_000094.pcm : 2.647 s
+after truncated KaiSpeech_000094.pcm : 1.568 s
+Result: shorten 1.079 s
+
+
+before truncated KaiSpeech_000095.pcm : 2.093 s
+after truncated KaiSpeech_000095.pcm : 1.472 s
+Result: shorten 0.621 s
+
+
+before truncated KaiSpeech_000096.pcm : 6.18 s
+after truncated KaiSpeech_000096.pcm : 4.064 s
+Result: shorten 2.116 s
+
+
+before truncated KaiSpeech_000097.pcm : 6.728 s
+after truncated KaiSpeech_000097.pcm : 5.6 s
+Result: shorten 1.128 s
+
+
+before truncated KaiSpeech_000098.pcm : 2.976 s
+after truncated KaiSpeech_000098.pcm : 2.272 s
+Result: shorten 0.704 s
+
+
+before truncated KaiSpeech_000099.pcm : 12.77 s
+after truncated KaiSpeech_000099.pcm : 8.128 s
+Result: shorten 4.642 s
+
+
+before truncated KaiSpeech_000100.pcm : 1.85 s
+after truncated KaiSpeech_000100.pcm : 1.056 s
+Result: shorten 0.794 s
