@@ -119,7 +119,7 @@ print("audio_format: %d" % int.from_bytes(channel_num, "little"))
 ```
 > audio_format: 1
 
-** SampleRate** is stored in little endian too. It means number of samples per second.
+**SampleRate** is stored in little endian too. It means number of samples per second.
 
 ```python
 sample_rate = bytearray(wav_header[24:28])
