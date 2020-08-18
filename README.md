@@ -4,12 +4,12 @@ This Repository provides follow audio file conversion functionalities.
 
 - pcm2wav
 - wav2pcm
+- get spectrogram
 
 and would be update as soon as possible.
 
 - delete silence
 - get spectrum
-- get spectrogram
 - get mel-spectrogram
 - get mfcc
 - **more**
