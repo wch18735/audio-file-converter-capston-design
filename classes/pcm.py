@@ -1,4 +1,4 @@
-from setting import wave
+from settings.setting import wave
 
 class PCM():
     '''
@@ -32,6 +32,7 @@ class PCM():
         self.__wav_header = header
 
     def make_wav(self, wav_path):
+        """ To Do List: make folder along sample rate and channels """
         if wav_path.split('.')[-1] != 'pcm' or 'PCM':
             wav_path = wav_path + self.__pcm_path.split('/')[-1].split('.')[0] + '.wav'
             with wave.open(wav_path, 'wb') as wavdata:

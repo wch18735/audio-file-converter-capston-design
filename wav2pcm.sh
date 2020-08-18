@@ -6,11 +6,10 @@
 #   year = {2020}
 # }
 
-SAMPLE_RATE=16000
-NUMCHANNEL=1
-BITS_PER_SAMPLE=16
+SAMPLE_PCM_PATH='../data/pcm_16000_mono/'
+SAMPLE_WAV_PATH='../data/wav_16000_mono/'
 
-cd pcm2wav
+cd wav2pcm
 
-python ./pcm2wav.py --sample_rate=$SAMPLE_RATE --numchannels=$NUMCHANNEL --bits_per_sample=$BITS_PER_SAMPLE
+python ./wav2pcm.py --sample_pcm_path="$SAMPLE_PCM_PATH" --sample_wav_path="$SAMPLE_WAV_PATH"
 

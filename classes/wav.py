@@ -1,4 +1,5 @@
-from setting import wave
+
+from settings.setting import wave
 
 class WAV():
     '''
@@ -37,7 +38,7 @@ class WAV():
     def get_wav(self, wav_path):
         with wave.open(wav_path, 'rb') as wav_fp:
             # getparams: (nchannels, sampwidth, framerate, nframes, comptype, compname)
-            wav_params = wav_fp.getparams(wav_path)
+            wav_params = wav_fp.getparams()
 
             # update params
             self.__numchannels = wav_params[0]  # nchannels
