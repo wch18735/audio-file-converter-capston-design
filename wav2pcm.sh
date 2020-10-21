@@ -1,7 +1,7 @@
 #!/bin/bash
 # @github{
 #   title = {Audio_File_Conversion},
-#   author = {Soohwan Kim, Seyoung Bae, Cheolhwang Won},
+#   author = {Cheolhwang Won},
 #   link = {https://github.com/wch18735/Audio_File_Conversion},
 #   year = {2020}
 # }
